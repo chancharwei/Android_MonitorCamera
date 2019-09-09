@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">Android_MonitorCamera</string>
+    <string name="app_name">MonitorCamera</string>
     <string name="title_home">Home</string>
     <string name="title_camera">Camera</string>
     <string name="title_monitor">Monitor</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
 </resources>

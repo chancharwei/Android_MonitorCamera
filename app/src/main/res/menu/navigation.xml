@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/home"
+            android:title="@string/title_home"
+            android:orderInCategory="0"/>
 
-    <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/home"
-        android:title="@string/title_home" />
+        <item
+            android:id="@+id/navigation_camera"
+            android:icon="@drawable/camera"
+            android:title="@string/title_camera"
+            android:orderInCategory="1"/>
 
-    <item
-        android:id="@+id/navigation_control"
-        android:icon="@drawable/camera"
-        android:title="@string/title_camera" />
-
-    <item
-        android:id="@+id/navigation_tablet"
-        android:icon="@drawable/monitor"
-        android:title="@string/title_monitor" />
-
+        <item
+            android:id="@+id/navigation_monitor"
+            android:icon="@drawable/monitor"
+            android:title="@string/title_monitor"
+            android:orderInCategory="2"/>
+    </group>
 </menu>
